@@ -6,15 +6,24 @@ body {
     align-items: center;
     height: 90vh;
     background-color: #8d8d8d;
-    margin: 0;
+    margin: 45px;
     font-family: 'Mukta', sans-serif;
+
+    
+}
+
+.container{
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
     
 }
 
 .title{
     color: beige;
-      justify-content: center;
-    align-items: center;
+    font-size: 2.6vh;
+    
+  
 }
 .h3{
     font-size: 2vh;
@@ -26,7 +35,7 @@ body {
 .image img {
     max-width: 20%;
     height: auto;
-    border-radius: 20px;
+    border-radius: 10vh;
    
     
 }
@@ -41,4 +50,18 @@ p {
 a{
     text-decoration: none;
     color: black;
+}
+
+
+@media only screen and (max-width: 1100px) {
+    
+    .image img {
+    max-width: 35%;
+    height: auto;
+    border-radius: 10vh;
+}
+
+p{
+    font-size: 35px;
+}
 }
